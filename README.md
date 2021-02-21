@@ -14,7 +14,7 @@ This fork have a special branch named `mambo`. It contains my PR and PR from oth
   * [Added --croppingminimum option to set a cropping minimum area ratio #343](https://github.com/ciromattia/kcc/pull/343)
   * [Add profiles for the Kobo Clara HD and Libra H2O #331](https://github.com/ciromattia/kcc/pull/331)
   * [Added targetsize option](https://github.com/ciromattia/kcc/pull/347)
-
+  * [Disable all image transformation : cli and GUI option](https://github.com/ciromattia/kcc/pull/388)
 
 My goal is to have a usable KCC version with improvements integrated. I mainly use it inside a docker container with IDE (through guacamole). See docker version here : https://github.com/StudioEtrange/docker-kcc
 
