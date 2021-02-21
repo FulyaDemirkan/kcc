@@ -7,6 +7,18 @@ It was initially developed for Kindle but since version 4.6 it outputs valid EPU
 actually a comic/manga to EPUB converter that every e-reader owner can happily use**_.
 It can also optionally optimize images by applying a number of transformations.
 
+### About this fork
+
+This fork have a special branch named `mambo`. It contains my PR and PR from other forks.
+  * [use copyfile and delete instead of shutil.move](https://github.com/ciromattia/kcc/pull/387)
+  * [Added --croppingminimum option to set a cropping minimum area ratio #343](https://github.com/ciromattia/kcc/pull/343)
+  * [Add profiles for the Kobo Clara HD and Libra H2O #331](https://github.com/ciromattia/kcc/pull/331)
+  * [Added targetsize option](https://github.com/ciromattia/kcc/pull/347)
+
+
+My goal is to have a usable KCC version with improvements integrated. I mainly use it inside a docker container with IDE (through guacamole). See docker version here : https://github.com/StudioEtrange/docker-kcc
+
+
 ### A word of warning
 **KCC** _is not_ [Amazon's Kindle Comic Creator](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1001103761) nor is in any way endorsed by Amazon.
 Amazon's tool is for comic publishers and involves a lot of manual effort, while **KCC** is for comic/manga readers.
